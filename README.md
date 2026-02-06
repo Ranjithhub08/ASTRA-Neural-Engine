@@ -1,34 +1,20 @@
-# ScholarAI - Senior Scientific Research Assistant
+# ResearchNode - Advanced Scientific Data Synthesizer
 
-ScholarAI is a high-accuracy Research QnA system designed for PhD-level scientific inquiry. It provides deep technical analysis, automated paper compression, and verified citation extraction.
+ResearchNode is a high-accuracy technical analysis system designed for multi-vector scientific inquiry. It provides deep technical synthesis, automated literature compression, and verified citation mapping.
 
 ## 🚀 Core Capabilities
 
-- **Intelligent PDF Processing**: Automated text extraction and structural analysis of complex scientific papers.
-- **Deep Research QnA**: Context-aware answering engine restricted to the provided literature to prevent hallucination.
-- **Automated Summarization**: Extracts Abstract, Methodology, and Key Findings without losing technical nuance.
-- **Citation Verification**: Accurate tracking of authors, DOI, and journal references.
-- **Cross-Paper Analysis**: Identifies research gaps and methodological contradictions.
+- **Multi-Vector PDF Ingestion**: Automated structural decomposition of complex research documents.
+- **Contextual Synthesis**: Context-aware engine that prioritizes technical methodology and empirical results.
+- **Node Compression**: Extracts Abstract, Methodology, and Key Observations into structured nodes.
+- **Citation Mapping**: Accurate tracking of academic lineage including DOI and journal metadata.
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React (Vite) + Framer Motion + Lucide Icons
-- **PDF Engine**: PDF.js for client-side technical extraction
-- **Logic**: PhD-Assistant Persona Prompting & Local RAG Pipeline
-- **Styling**: Vanilla CSS with Academic Aesthetics (Dark Mode, Glassmorphism)
-
-## 📖 How it Works
-
-1. **Ingest**: Upload a PDF or TXT research paper.
-2. **Compress**: The system analyzes key sections (Abstract, Methodology, Results).
-3. **Inquire**: Ask deep technical questions like *"What are the edge cases of the entropy loss function mentioned in section 3.2?"*
-4. **Cite**: Get answers with numbered sources and direct paper quotes.
-
-## 🎯 Answering Rules
-
-- **Factuality**: Strictly uses provided literature.
-- **Precision**: Professional, technical, and concise.
-- **Integrity**: Never hallucinates citations. If not found, it says: *"Not found in the provided literature."*
+- **Frontend**: React (Vite) + Framer Motion (Interactions)
+- **Engine**: PDF.js Client-Side Extraction
+- **Persona**: Technical Data Synthesizer
+- **Styling**: "Cyber-Academic" Aesthetic (Teal/Emerald Accent, Dark Mode)
 
 ---
-*Built for the next generation of scientific exploration.*
+*Built for the future of scientific knowledge synthesis.*

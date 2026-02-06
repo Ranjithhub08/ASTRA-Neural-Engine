@@ -7,7 +7,7 @@ const ResearchAssistant = () => {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: "Welcome, Researcher. I am your PhD-level assistant. Upload a paper to begin our deep analysis.",
+            content: "Node ready. Upload scientific literature to begin multi-vector extraction.",
             type: 'text'
         }
     ]);
@@ -228,7 +228,7 @@ const ResearchAssistant = () => {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyPress={(e) => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), handleSend())}
-                            placeholder="Ask a technical research question..."
+                            placeholder="Synthesize insights from the literature..."
                             style={{
                                 width: '100%',
                                 background: 'transparent',
