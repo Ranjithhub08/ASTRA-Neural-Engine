@@ -1,4 +1,4 @@
-import { Binary, Search, Layers, Settings, HelpCircle, History, Filter } from 'lucide-react';
+import { Atom, Search, Zap, Settings, HelpCircle, Database, Cpu } from 'lucide-react';
 
 const Layout = ({ children }) => {
   return (
@@ -23,21 +23,21 @@ const Layout = ({ children }) => {
             background: 'var(--accent)',
             padding: '8px',
             borderRadius: '8px',
-            boxShadow: '0 0 20px var(--accent-glow)'
+            boxShadow: '0 0 25px var(--accent-glow)'
           }}>
-            <Binary size={20} color="#0a0a0c" />
+            <Atom size={20} color="#0a0a0c" />
           </div>
-          <span style={{ fontWeight: 700, fontSize: '18px', letterSpacing: '-0.03em' }}>
-            Research<span style={{ color: 'var(--accent)' }}>Node</span>
+          <span style={{ fontWeight: 800, fontSize: '20px', letterSpacing: '-0.05em', textTransform: 'uppercase' }}>
+            ASTRA<span style={{ color: 'var(--accent)' }}>.ai</span>
           </span>
         </div>
 
         <nav className="sidebar-nav" style={{ padding: '16px', flex: 1 }}>
           <div className="nav-section">
-            <p style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '12px', paddingLeft: '8px', fontWeight: 600 }}>Workspace</p>
-            <NavItem icon={<Search size={18} />} label="Analyze" active />
-            <NavItem icon={<Layers size={18} />} label="Correlations" />
-            <NavItem icon={<History size={18} />} label="Library" />
+            <p style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '12px', paddingLeft: '8px', fontWeight: 600 }}>Neural Network</p>
+            <NavItem icon={<Zap size={18} />} label="Synthesize" active />
+            <NavItem icon={<Database size={18} />} label="Knowledge Base" />
+            <NavItem icon={<Cpu size={18} />} label="Logic Core" />
           </div>
         </nav>
 

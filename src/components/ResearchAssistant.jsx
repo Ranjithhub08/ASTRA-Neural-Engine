@@ -7,7 +7,7 @@ const ResearchAssistant = () => {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: "Node ready. Upload scientific literature to begin multi-vector extraction.",
+            content: "ASTRA Logic Core Online. Provide source literature for high-fidelity neural extraction.",
             type: 'text'
         }
     ]);
@@ -56,7 +56,7 @@ const ResearchAssistant = () => {
 
             setMessages(prev => [...prev, {
                 role: 'assistant',
-                content: `I've analyzed **${file.name}** (${data.pageCount} pages). You can now ask specific questions about the methodology, results, or citations.`,
+                content: `Neural map for **${file.name}** synchronized (${data.pageCount} layers). Logic core is ready for synthetic inquiries.`,
                 type: 'text'
             }]);
         } catch (err) {
@@ -228,7 +228,7 @@ const ResearchAssistant = () => {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyPress={(e) => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), handleSend())}
-                            placeholder="Synthesize insights from the literature..."
+                            placeholder="Deconstruct scientific methodology..."
                             style={{
                                 width: '100%',
                                 background: 'transparent',
